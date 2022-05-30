@@ -1,0 +1,45 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "es2017",
+      "esnext",
+      "esnext.asynciterable"
+    ],
+    "target": "es5",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}
+// {"compileOnSave": false,
+// "compilerOptions": {
+//   "module": "commonjs", // Previously this value was `es6`
+//   "target": "es6",
+//   "lib": [
+//     "es6",
+//     "dom"
+//   ],
+//   "inlineSources": true,
+//   "types": [
+//     "node"
+//   ],
+//   "stripInternal": true,
+//   "incremental": true,
+//   "skipLibCheck": true,
+//   "allowSyntheticDefaultImports": true,
+//   // "baseUrl": "public",
+//   "sourceMap": true,
+//   // "outDir": "dist",
+//   // "jsx": "react",
+//   "strict": true,
+//   "preserveConstEnums": true,
+//   "removeComments": true,
+//   "noImplicitAny": true,
+//   "allowJs": true
+// },
+// "exclude": [
+//   "node_modules",
+//   "build"
+// ]}
